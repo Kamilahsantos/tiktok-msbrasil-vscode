@@ -10,6 +10,9 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   
+
+
+  
   // Envia a resposta
   res.end('Olá, Kamila Code!\n');
 });

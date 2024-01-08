@@ -12,6 +12,10 @@ function printBoard() {
     );
 }
 
+
+
+
+
 function checkWin() {
     const winConditions = [
         [0, 1, 2],

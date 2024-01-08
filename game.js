@@ -1,7 +1,5 @@
-// Gera um número aleatório entre 1 e 10
 const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
 
-// Define o número de tentativas
 let tentativas = 3;
 
 console.log("Bem-vindo ao jogo de adivinhação! Você tem 3 tentativas para adivinhar um número entre 1 e 10.");
